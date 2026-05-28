@@ -1,0 +1,4 @@
+"model","accuracy","auc"
+"naive_up",0.5011,NA
+"logistic",0.4739,0.5368
+"random_forest",0.4603,0.5639

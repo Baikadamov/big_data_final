@@ -1,0 +1,181 @@
+FINAL EXAM PROJECT
+
+Comprehensive Analysis of Real Data
+
+Overview
+
+You are required to implement a full analytical workflow using real financial data. The project must demonstrate your ability to load, clean, process, visualize, model, and interpret financial datasets using R.
+Your final deliverable is a technical report + code appendix.
+
+Total: 40 points
+Duration: 2 hours
+
+Dataset Options (choose ONE)
+
+You may use any publicly available financial dataset. Recommended options:
+
+Company stock data (e.g., AAPL, MSFT, TSLA from Yahoo Finance).
+Exchange rates (USD/KZT, EUR/KZT).
+Bank customer data (e.g., Kaggle credit scoring datasets).
+Macroeconomic time series (inflation, interest rates, GDP, imports/exports).
+Cryptocurrency data (BTC, ETH).
+ 
+
+TASK STRUCTURE AND POINT DISTRIBUTION
+
+Task 1. Data Loading and Cleaning (6 points)
+
+Load your dataset and perform a full preprocessing cycle:
+
+Import data from CSV/Excel/API/database.
+Identify and treat missing values.
+Detect outliers using at least one statistical or visualization method.
+Produce a clean dataset for analysis.
+Deliverables:
+
+Description of cleaning steps.
+Summary of missing data and outliers.
+Justification of chosen cleaning methods.
+ 
+
+Task 2. Exploratory Data Analysis & Visualization (6 points)
+
+Perform an exploratory statistical analysis using:
+
+Descriptive statistics (mean, median, sd, quantiles).
+At least three meaningful visualizations (e.g., time series plot, boxplot, histogram, correlation plot).
+Interpretation of insights.
+Deliverables:
+
+Clear visuals with captions.
+Short analytical commentary on patterns found.
+ 
+
+Task 3. Time Series Analysis and Forecasting (8 points)
+
+For any variable with time dependence (e.g., price, exchange rate, macro indicator):
+
+Test for stationarity (ADF test).
+Plot ACF and PACF.
+Fit at least one ARIMA/SARIMA model.
+Produce a forecast for the next 12 periods.
+Evaluate forecast accuracy (RMSE, MAE).
+Deliverables:
+
+Model selection logic.
+Forecast plot.
+Error metrics and interpretation.
+ 
+
+Task 4. Unsupervised Learning: Clustering or PCA (6 points)
+
+Choose either clustering OR PCA, depending on your dataset.
+
+Option A: Clustering
+
+Standardize numerical variables.
+Apply k-means or hierarchical clustering.
+Select the number of clusters using the elbow or silhouette method.
+Interpret cluster profiles in a financial context.
+Option B: PCA
+
+Perform PCA on a multivariate dataset.
+Report proportion of variance explained.
+Plot the first 2 principal components.
+Interpret components and insights.
+Deliverables:
+
+Justification of chosen method.
+Visualizations + interpretation of financial meaning.
+ 
+
+Task 5. Predictive Modeling (Regression or Classification) (8 points)
+
+Choose a prediction task depending on your dataset:
+
+Option A: Regression
+
+Predict a continuous outcome (e.g., stock return, volatility, revenue).
+Models (choose one):
+
+Linear regression
+Regression tree
+Random forest
+Gradient boosting
+Option B: Classification
+
+Predict a binary or multi-class outcome (e.g., default, high/medium/low risk).
+Models (choose one):
+
+Logistic regression
+Decision tree
+Random forest
+XGBoost (optional)
+Required outputs:
+
+Train/test split.
+Model training + hyperparameter selection.
+Performance metrics (R², RMSE for regression; accuracy, ROC-AUC for classification).
+Clear explanation of results.
+ 
+
+Task 6. Final Interpretation and Financial Conclusions (6 points)
+
+Provide a coherent financial narrative integrating all methods:
+
+What does the data tell about the company/market/economy?
+Which factors influence the analyzed variable the most?
+How reliable are the models?
+What recommendations can be made (e.g., investment decisions, risk assessment, segmentation)?
+Quality of writing, coherence, visualization design, and clarity are evaluated.
+
+ 
+
+Format of Submission
+
+Report (PDF or Word) must include:
+
+Title page
+Introduction: dataset & objective
+Sections for Tasks 1–6
+Conclusion
+References
+Appendix
+
+Additional figures or tables if needed
+ 
+
+POINT RUBRIC (40 TOTAL)
+
+Section
+
+Max Points
+
+Data loading & cleaning
+
+6
+
+EDA & visualization
+
+6
+
+Time series modeling
+
+8
+
+Clustering or PCA
+
+6
+
+Predictive modeling
+
+8
+
+Final conclusions
+
+6
+
+Total
+
+40
+
